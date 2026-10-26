@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.svg text eol=lf linguist-generated
+*.json linguist-generated
+*.css linguist-generated
+*.woff2 binary
+*.woff binary
+*.ttf binary
