@@ -1,6 +1,6 @@
 # UIX Icons
 
-13,491 free icons on a 24 px grid, in three styles, MIT licensed. Browse and search them at [icons.pagestro.com](https://icons.pagestro.com).
+23,322 free icons on a 24 px grid, in three styles, MIT licensed. Browse and search them at [uixicons.com](https://uixicons.com).
 
 | Style | Folder | Font |
 |---|---|---|
@@ -28,13 +28,13 @@ Single SVG files from jsDelivr, served from the npm package:
 Or straight from this repository, pinned to a release tag:
 
 ```html
-<img src="https://cdn.jsdelivr.net/gh/mdrakibshekh/uix-icons@v0.1.0/svg/solid/home.svg" width="24" height="24" alt="Home">
+<img src="https://cdn.jsdelivr.net/gh/mdrakibshekh/uix-icons@v0.2.0/svg/solid/home.svg" width="24" height="24" alt="Home">
 ```
 
 ## Icon font
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdrakibshekh/uix-icons@v0.1.0/css/uix-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdrakibshekh/uix-icons@v0.2.0/css/uix-icons.css">
 
 <i class="uix uix-home"></i>             <!-- Regular Rounded -->
 <i class="uix uix-sharp uix-home"></i>   <!-- Regular Sharp -->
