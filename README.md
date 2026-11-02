@@ -13,16 +13,18 @@ Every SVG uses `viewBox="0 0 24 24"` and `currentColor`, so it takes the text co
 ## Install
 
 ```sh
-npm install @uix-ui/icons          # SVG files, sprites, search data
-npm install @uix-ui/icons-react    # React components
+npm install @uixicons/icons          # Regular Rounded SVG files, sprites, icon fonts, search data
+npm install @uixicons/icons-sharp    # Regular Sharp SVG files
+npm install @uixicons/icons-solid    # Solid SVG files
+npm install @uixicons/react          # React components
 ```
 
 ## CDN
 
-Single SVG files from jsDelivr, served from the npm package:
+Single SVG files from jsDelivr, served from the npm packages (`icons-sharp` and `icons-solid` hold the other two styles):
 
 ```html
-<img src="https://cdn.jsdelivr.net/npm/@uix-ui/icons/svg/stroke-regular-rounded/home.svg" width="24" height="24" alt="Home">
+<img src="https://cdn.jsdelivr.net/npm/@uixicons/icons/svg/stroke-regular-rounded/home.svg" width="24" height="24" alt="Home">
 ```
 
 Or straight from this repository, pinned to a release tag:
@@ -43,7 +45,7 @@ Or straight from this repository, pinned to a release tag:
 
 `css/uix-icons.css` loads all three fonts; each font is only downloaded when a page uses it. If you need a single style, link `css/uix-icons-regular.css`, `css/uix-icons-sharp.css` or `css/uix-icons-solid.css` instead and use `class="uix uix-home"`. The fonts come as woff2, woff and ttf in `fonts/`. Codepoints are in `codepoints.json` and stay the same from one release to the next. Size the icons with `font-size` and colour them with `color`.
 
-From the next npm release the same files are also at `https://cdn.jsdelivr.net/npm/@uix-ui/icons/css/uix-icons.css`.
+From the next npm release the same files are also at `https://cdn.jsdelivr.net/npm/@uixicons/icons/css/uix-icons.css`.
 
 ## SVG sprite
 
@@ -54,8 +56,8 @@ From the next npm release the same files are also at `https://cdn.jsdelivr.net/n
 ## React
 
 ```jsx
-import { Home, Search } from '@uix-ui/icons-react/stroke-regular-rounded';
-import { Home as HomeSolid } from '@uix-ui/icons-react/solid';
+import { Home, Search } from '@uixicons/react/stroke-regular-rounded';
+import { Home as HomeSolid } from '@uixicons/react/solid';
 
 <Home width={20} height={20} className="text-gray-700" />
 ```
